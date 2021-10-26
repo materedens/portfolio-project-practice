@@ -7,30 +7,33 @@ const Navbar = () => {
     return (
 <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
  <div className="container">
-  <a className="navbar-brand" href="#"><img className="logo" src={logo} alt="logo"/></a>
+  <a className="navbar-brand" href="#back-top"><img className="logo" src={logo} alt="logo"/></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <FontAwesomeIcon icon={faBars} style={{color: "#fff"}} />
   </button>
 
   <div className="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul className="navbar-nav ml-auto">
+    <ul className="navbar-nav ms-auto py-4 py-lg-0">
       <li className="nav-item active">
         <a className="nav-link" href="#">Home <span className="sr-only"></span></a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">about</a>
+        <a className="nav-link scrollto" href="#about">about</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">services</a>
+        <a className="nav-link scrollto" href="#services">services</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">experience</a>
+        <a className="nav-link scrollto" href="#experience">experience</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#">portfolio</a>
+        <a className="nav-link scrollto" href="#portfolio">portfolio</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link" href="#contact">contact</a>
+        <a className="nav-link scrollto" href="#contact">contact</a>
+      </li>
+      <li>
+        <a class="getstarted scrollto" href="#about">Get Started</a>
       </li>
     </ul>
   </div>

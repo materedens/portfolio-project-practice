@@ -1,21 +1,68 @@
-import React from 'react'
+import React from 'react';
+import { Icon } from '@iconify/react';
 
 const Footer = () => {
     return (
-        <footer class="footer py-4 bg-dark">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-start">Developed by Denis Matere</div>
-                    <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-light btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-light btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-light btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-light text-decoration-none me-3" href="#!">Privacy Policy</a>
-                        <a class="link-light text-decoration-none" href="#!">Terms of Use</a>
+        <footer id="footer">
+            <div className="footer-top">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-3 col-md-6">
+                            <div className="footer-info">
+                                <h3>K HUB</h3>
+                                {/* <p>
+                                    A108 Kitale Street <br>
+                                    Westlands, Nairobi <br><br>
+                                    <strong>Phone:</strong> +254 792656398<br>
+                                    <strong>Email:</strong> info@gmail.com<br>
+                                </p> */}
+                                <div className="social-links mt-3">
+                                    <a href="#" className="twitter"><Icon icon="bx:bxl-twitter" /></a>
+                                    <a href="#" className="facebook"><Icon icon="bx:bxl-facebook" /></a>
+                                    <a href="#" className="instagram"><Icon icon="bx:bxl-instagram" /></a>
+                                    <a href="#" className="google-plus"><Icon icon="bx:bxl-skype" /></a>
+                                    <a href="#" className="linkedin"><Icon icon="bx:bxl-linkedin" /></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-6 footer-links">
+                            <h4>Useful Links</h4>
+                            <ul>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Home</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">About us</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Services</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Terms of service</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Privacy policy</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-3 col-md-6 footer-links">
+                            <h4>Our Services</h4>
+                            <ul>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Web Design</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Web Development</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Product Management</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Marketing</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Graphic Design</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-4 col-md-6 footer-newsletter">
+                            <h4>Our Newsletter</h4>
+                               <p></p>
+                               <form action="" method="post" >
+                               <input type="email" name="email" /><input type="submit" value="Subscribe" />
+                               </form>
+
+                        </div>
                     </div>
                 </div>
+            </div>
+            <div class="container" align="center">
+                <div class="copyright">
+                   &copy; Copyright <strong><span>K HUB</span></strong>. All Rights Reserved
+                </div>
+            <div class="credits">
+                        Designed by <a href="https://khub.com/">DENNIS MATERE</a>
+            </div>
             </div>
         </footer>
     )

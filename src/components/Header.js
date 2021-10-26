@@ -12,7 +12,9 @@ const Header = () => {
                 typeSpeed={40} backSpeed={60} loop
                 />
                 <a href="#" className="btn-main-offer">Contact Me</a>
+                {/* <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> */}
             </div>
+            
         </div>
     )
 }

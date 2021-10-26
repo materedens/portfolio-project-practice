@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Icon } from '@iconify/react';
 
 const Contact = () => {
     return (
@@ -62,7 +63,7 @@ const Contact = () => {
 									<p className="mb-4">We're open for any suggestion or just to have a chat</p>
 				        	<div className="dbox w-100 d-flex align-items-start">
 				        		<div className="icon d-flex align-items-center justify-content-center">
-				        			<span className="fa fa-map-marker"></span>
+				        			<span><Icon icon="clarity:map-marker-line" /></span>
 				        		</div>
 				        		<div className="text pl-3">
 					            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
@@ -70,7 +71,7 @@ const Contact = () => {
 				          </div>
 				        	<div className="dbox w-100 d-flex align-items-center">
 				        		<div className="icon d-flex align-items-center justify-content-center">
-				        			<span className="fa fa-phone"></span>
+				        			<span><Icon icon="bi:phone" /></span>
 				        		</div>
 				        		<div className="text pl-3">
 					            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
@@ -78,7 +79,7 @@ const Contact = () => {
 				          </div>
 				        	<div className="dbox w-100 d-flex align-items-center">
 				        		<div className="icon d-flex align-items-center justify-content-center">
-				        			<span className="fa fa-paper-plane"></span>
+				        			<span><Icon icon="fontisto:email" /></span>
 				        		</div>
 				        		<div className="text pl-3">
 					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
@@ -86,7 +87,7 @@ const Contact = () => {
 				          </div>
 				        	<div className="dbox w-100 d-flex align-items-center">
 				        		<div className="icon d-flex align-items-center justify-content-center">
-				        			<span className="fa fa-globe"></span>
+				        			<span><Icon icon="whh:website" /></span>
 				        		</div>
 				        		<div className="text pl-3">
 					            <p><span>Website</span> <a href="#">yoursite.com</a></p>
