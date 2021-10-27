@@ -33,7 +33,7 @@ const Navbar = () => {
         <a className="nav-link scrollto" href="#contact">contact</a>
       </li>
       <li>
-        <a class="getstarted scrollto" href="#about">Get Started</a>
+        <a className="getstarted scrollto" href="#about">Get Started</a>
       </li>
     </ul>
   </div>

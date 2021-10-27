@@ -3,104 +3,73 @@ import { Icon } from '@iconify/react';
 
 const Contact = () => {
     return (
-        <section className="ftco-section bg-light">
+		<section id="contact" className="contact section-bg">
 		<div className="container">
-			<div className="row justify-content-center">
-				<div className="col-md-6 text-center mb-5">
-					<h2 className="heading-section"></h2>
-				</div>
+
+			<div className="section-title">
+				<h2 data-aos="fade-up">Contact</h2>
+				<p data-aos="fade-up"></p>
 			</div>
+
 			<div className="row justify-content-center">
-				<div className="col-md-12">
-					<div className="wrapper">
-						<div className="row no-gutters">
-							<div className="col-lg-8 col-md-7 order-md-last d-flex align-items-stretch">
-								<div className="contact-wrap w-100 p-md-5 p-4">
-									<h3 className="mb-4">Get in touch</h3>
-									<div id="form-message-warning" className="mb-4"></div> 
-				      		<div id="form-message-success" className="mb-4">
-				            Your message was sent, thank you!
-				      		</div>
-									<form method="POST" id="contactForm" name="contactForm" className="contactForm">
-										<div className="row">
-											<div className="col-md-6">
-												<div className="form-group">
-													<label className="label" for="name">Full Name</label>
-													<input type="text" className="form-control" name="name" id="name" placeholder="Name" />
-												</div>
-											</div>
-											<div className="col-md-6"> 
-												<div className="form-group">
-													<label className="label" for="email">Email Address</label>
-													<input type="email" className="form-control" name="email" id="email" placeholder="Email" />
-												</div>
-											</div>
-											<div className="col-md-12">
-												<div className="form-group">
-													<label className="label" for="subject">Subject</label>
-													<input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" />
-												</div>
-											</div>
-											<div className="col-md-12">
-												<div className="form-group">
-													<label className="label" for="#">Message</label>
-													<textarea name="message" className="form-control" id="message" cols="30" rows="4" placeholder="Message"></textarea>
-												</div>
-											</div>
-											<div className="col-md-12">
-												<div className="form-group">
-													<input type="submit" value="Send Message" className="btn btn-primary" />
-													<div className="submitting"></div>
-												</div>
-											</div>
-										</div>
-									</form>
-								</div>
-							</div>
-							<div className="col-lg-4 col-md-5 d-flex align-items-stretch">
-								<div className="info-wrap bg-primary w-100 p-md-5 p-4">
-									<h3>Let's get in touch</h3>
-									<p className="mb-4">We're open for any suggestion or just to have a chat</p>
-				        	<div className="dbox w-100 d-flex align-items-start">
-				        		<div className="icon d-flex align-items-center justify-content-center">
-				        			<span><Icon icon="clarity:map-marker-line" /></span>
-				        		</div>
-				        		<div className="text pl-3">
-					            <p><span>Address:</span> 198 West 21th Street, Suite 721 New York NY 10016</p>
-					          </div>
-				          </div>
-				        	<div className="dbox w-100 d-flex align-items-center">
-				        		<div className="icon d-flex align-items-center justify-content-center">
-				        			<span><Icon icon="bi:phone" /></span>
-				        		</div>
-				        		<div className="text pl-3">
-					            <p><span>Phone:</span> <a href="tel://1234567920">+ 1235 2355 98</a></p>
-					          </div>
-				          </div>
-				        	<div className="dbox w-100 d-flex align-items-center">
-				        		<div className="icon d-flex align-items-center justify-content-center">
-				        			<span><Icon icon="fontisto:email" /></span>
-				        		</div>
-				        		<div className="text pl-3">
-					            <p><span>Email:</span> <a href="mailto:info@yoursite.com">info@yoursite.com</a></p>
-					          </div>
-				          </div>
-				        	<div className="dbox w-100 d-flex align-items-center">
-				        		<div className="icon d-flex align-items-center justify-content-center">
-				        			<span><Icon icon="whh:website" /></span>
-				        		</div>
-				        		<div className="text pl-3">
-					            <p><span>Website</span> <a href="#">yoursite.com</a></p>
-					          </div>
-				          </div>
-			          </div>
-							</div>
-						</div>
+
+				<div className="col-xl-3 col-lg-4 mt-4" data-aos="fade-up">
+					<div className="info-box">
+						<i><Icon icon="bx:bx-map" /></i>
+						<h3>Our Address</h3>
+						<p>Dennis Print Road, Kileleshwa, Nairobi</p>
+					</div>
+				</div>
+
+				<div className="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="100">
+					<div className="info-box">
+						<i><Icon icon="bx:bx-envelope" /></i>
+						<h3>Email Us</h3>
+						<p>info@khub.com</p>
+						<p>contact@khub.com</p>
+					</div>
+				</div>
+				<div className="col-xl-3 col-lg-4 mt-4" data-aos="fade-up" data-aos-delay="200">
+					<div className="info-box">
+						<i><Icon icon="bx:bx-phone-call" /></i>
+						<h3>Call Us</h3>
+						<p>+254 792 65 63 98</p>
+						<p>+254 716 09 34 93</p>
 					</div>
 				</div>
 			</div>
+
+			<div className="row justify-content-center" data-aos="fade-up" data-aos-delay="300">
+				<div className="col-xl-9 col-lg-12 mt-4">
+					<form action="forms/contact.php" method="post" role="form" className="php-email-form">
+						<div className="row">
+							<div className="col-md-6 form-group">
+								<input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required />
+							</div>
+							<div className="col-md-6 form-group mt-3 mt-md-0">
+								<input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required />
+							</div>
+						</div>
+						<div className="form-group mt-3">
+							<input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required />
+						</div>
+						<div className="form-group mt-3">
+							<textarea className="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+						</div>
+						<div className="my-3">
+							<div className="loading">Loading</div>
+							<div className="error-message"></div>
+							<div className="sent-message">Your message has been sent. Thank you!</div>
+						</div>
+						<div className="text-center"><button type="submit">Send Message</button></div>
+					</form>
+				</div>
+
+			</div>
+
 		</div>
 	</section>
+	
     )
 }
 

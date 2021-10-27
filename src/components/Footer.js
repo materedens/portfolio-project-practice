@@ -10,12 +10,11 @@ const Footer = () => {
                         <div className="col-lg-3 col-md-6">
                             <div className="footer-info">
                                 <h3>K HUB</h3>
-                                {/* <p>
-                                    A108 Kitale Street <br>
-                                    Westlands, Nairobi <br><br>
-                                    <strong>Phone:</strong> +254 792656398<br>
-                                    <strong>Email:</strong> info@gmail.com<br>
-                                </p> */}
+                                    <p>Dennis Pritt Road</p>
+                                    <p> Kileleshwa, Nairobi</p><br></br> 
+                                    <p> <strong>Phone:</strong> +254 792 65 63 98 </p>
+                                    <p> <strong>Email:</strong> info@gmail.com </p>
+                            
                                 <div className="social-links mt-3">
                                     <a href="#" className="twitter"><Icon icon="bx:bxl-twitter" /></a>
                                     <a href="#" className="facebook"><Icon icon="bx:bxl-facebook" /></a>
@@ -65,6 +64,7 @@ const Footer = () => {
             </div>
             </div>
         </footer>
+        
     )
 }
 
