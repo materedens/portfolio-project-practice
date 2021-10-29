@@ -1,6 +1,7 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 import "venobox/venobox/venobox.min.css";
+import "venobox/venobox/venobox.css";
 import Particles from "react-particles-js";
 import Navbar from './components/Navbar';
 import Header from './components/Header';

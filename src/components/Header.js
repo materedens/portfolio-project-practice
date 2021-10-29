@@ -1,24 +1,60 @@
 import React from "react";
 import Typed from "react-typed";
 import { Icon } from '@iconify/react';
+import { Carousel } from "react-bootstrap";
 
 const Header = () => {
     return (
         <div className="header-wrapper">
             <div className="main-info">
+            
                 <h1>Better Solutions For Your Business</h1>
                 <Typed 
                 className="typed-text"
-                strings={["Web Design", "Web Development", "Facebook Ads SMM", "Google Ads"]}
+                strings={["Web Design", "Software Development", "IT Support", "IT Infrastructure", "IT Consultancy"]}
                 typeSpeed={40} backSpeed={60} loop
-                />
+                /><br></br>
                 <div class="d-flex align-items-center">
                    <i className="get-started-icon"><Icon icon="bx:bxs-right-arrow-alt" /></i>
                    <a href="#about" className="btn-get-started scrollto">Get Started</a>
                 </div>
                 {/* <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> */}
             </div>
-            
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 h-75"
+            src="img/header-bg.jpg"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3></h3>
+            <p></p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 h-75"
+            src="img/hero-bg.jpg"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3></h3>
+            <p></p>
+          </Carousel.Caption>
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100 h-75"
+            src="img/head.jpg"
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3></h3>
+            <p></p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      </Carousel>
         </div>
     )
 }

@@ -82,10 +82,10 @@ nav ul li {
 
 .header-wrapper {
   position: relative;
-  background: url(header-bg.jpg) no-repeat;
+  /* background: url(header-bg.jpg) no-repeat; */
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 .header-wrapper .get-started-icon {
   font-size: 24px;
@@ -197,7 +197,7 @@ section {
   font-size: 24px;
   font-weight: 700;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   color: #263d4d;
 }
 /******************ABOUT*****************************/
@@ -265,6 +265,8 @@ section {
   margin-left: 85px;
   line-height: 24px;
   font-size: 14px;
+  text-transform: none;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .about .video-box {
@@ -530,7 +532,7 @@ section {
   padding: 0 0 30px 0;
   color: var(--primary-white);
   font-size: 0.9rem;
-  text-align: center;
+  /* text-align: center; */
 }
 
 #footer .footer-top {
@@ -676,10 +678,12 @@ section {
 
 /********************SERVICES***************************/
 .services .icon-box {
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
   padding: 30px;
   border-radius: 6px;
   background: #fff;
+  transition: all ease-in-out 0.4s;
 }
 
 .services .icon-box i {
@@ -687,6 +691,7 @@ section {
   color: #5c8eb0;
   font-size: 40px;
   line-height: 0;
+  transition: 0.3s;
 }
 
 .services .icon-box h4 {
@@ -694,12 +699,17 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  transition: ease-in-out 0.3s;
 }
 
 .services .icon-box h4 a {
   color: #365870;
   transition: 0.3s;
   text-decoration: none;
+}
+
+.services .icon-box:hover {
+  transform: translateY(-20px);
 }
 
 .services .icon-box .icon-box:hover h4 a {

@@ -24,10 +24,7 @@ const Navbar = () => {
         <a className="nav-link scrollto" href="#services">services</a>
       </li>
       <li className="nav-item">
-        <a className="nav-link scrollto" href="#experience">experience</a>
-      </li>
-      <li className="nav-item">
-        <a className="nav-link scrollto" href="#portfolio">portfolio</a>
+        <a className="nav-link scrollto" href="#lients">our clients</a>
       </li>
       <li className="nav-item">
         <a className="nav-link scrollto" href="#contact">contact</a>

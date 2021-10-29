@@ -38,15 +38,15 @@ const Footer = () => {
                             <h4>Our Services</h4>
                             <ul>
                                <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Web Design</a></li>
-                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Web Development</a></li>
-                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Product Management</a></li>
-                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Marketing</a></li>
-                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Graphic Design</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Software Development</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">IT Support</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">IT Consultancy</a></li>
+                               <li><Icon icon="bx:bx-chevron-right" /> <a href="#">Software Outsourcing</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-4 col-md-6 footer-newsletter">
                             <h4>Our Newsletter</h4>
-                               <p></p>
+                               <p>Signup to receive our newsletters</p>
                                <form action="" method="post" >
                                <input type="email" name="email" /><input type="submit" value="Subscribe" />
                                </form>

@@ -7,7 +7,7 @@ const Contact = () => {
 		<div className="container">
 
 			<div className="section-title">
-				<h2 data-aos="fade-up">Contact</h2>
+				<h2 data-aos="fade-up">Contact Us</h2>
 				<p data-aos="fade-up"></p>
 			</div>
 
