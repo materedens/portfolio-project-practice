@@ -22,37 +22,23 @@ const Header = () => {
             </div>
       <Carousel>
         <Carousel.Item>
-          <img
-            className="d-block w-100 h-75"
-            src="img/header-bg.jpg"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
+          <img className="d-block w-100" src="img/header-bg.jpg" alt="K HUB" />
         </Carousel.Item>
+
         <Carousel.Item>
-          <img
-            className="d-block w-100 h-75"
-            src="img/hero-bg.jpg"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
+          <img className="d-block w-100" src="img/hero-bg.jpg" alt="K HUB" />
         </Carousel.Item>
+
         <Carousel.Item>
-          <img
-            className="d-block w-100 h-75"
-            src="img/head.jpg"
-            alt="First slide"
-          />
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
+          <img className="d-block w-100" src="img/header-bg.jpeg" alt="K HUB" />
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img className="d-block w-100" src="img/header-bg1.jpg" alt="K HUB" />
+        </Carousel.Item>
+
+        <Carousel.Item>
+          <img className="d-block w-100" src="img/header-bg2.jpg" alt="K HUB" />
         </Carousel.Item>
       </Carousel>
         </div>
