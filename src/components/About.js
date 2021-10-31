@@ -37,11 +37,9 @@ const About = () => {
             <div className="container" data-aos="zoom-out-up" data-aos-delay="100">
                 <div className="row">
                     <div className="col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative" data-aos="fade-right" data-aos-delay="200">
-                        {/* <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a> */}
                     </div>
                     <div className="section-title col-xl-7 col-lg-6 icon boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5" data-aos="fade-left" data-aos-delay="300">
                         <h2>About Us</h2>
-                        {/* <h2>IT Business Solutions.</h2> */}
                         <p>Who we are</p>
                         <h6>
                             We are a digital transformation IT consultancy and software development company that provides cutting edge engineering solution. We help non-IT organizations, retails and software product companies improve business performance and quickly win new customers.

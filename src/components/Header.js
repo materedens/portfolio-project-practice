@@ -13,16 +13,24 @@ const Header = () => {
                 className="typed-text"
                 strings={["Web Design", "Software Development", "IT Support", "IT Infrastructure", "IT Consultancy"]}
                 typeSpeed={40} backSpeed={60} loop
-                /><br></br>
-                <div class="d-flex align-items-center">
+                />
+                {/* <div class="d-flex align-items-center">
                    <i className="get-started-icon"><Icon icon="bx:bxs-right-arrow-alt" /></i>
                    <a href="#about" className="btn-get-started scrollto">Get Started</a>
-                </div>
+                </div> */}
                 {/* <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a> */}
             </div>
       <Carousel>
         <Carousel.Item>
           <img className="d-block w-100" src="img/header-bg.jpg" alt="K HUB" />
+          <Carousel.Caption>
+               {/* <h1>Better Solutions For Your Business</h1>
+               <Typed 
+                className="typed-text"
+                strings={["Web Design", "Software Development", "IT Support", "IT Infrastructure", "IT Consultancy"]}
+                typeSpeed={40} backSpeed={60} loop
+                /> */}
+          </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item>
